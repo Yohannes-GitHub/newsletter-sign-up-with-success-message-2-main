@@ -5,6 +5,7 @@ const subBtn = document.getElementById("subscribe-btn");
 const section = document.querySelector("section");
 const confirmedEmail = document.querySelector(".confirmed-email");
 const dismissBtn = document.getElementById("dismiss-btn");
+const form = document.getElementById("form");
 
 input.addEventListener("click", () => {
   emailRight.classList.add("hidden");
