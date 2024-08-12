@@ -1,6 +1,7 @@
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
-This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a second solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
+I tried to handle form validation with a different approach this time. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -49,8 +50,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Yohannes-GitHub/newsletter-sign-up-with-success-message-main)
-- Live Site URL: [Add live site URL here](https://newsletter-sign-up-by-jon-sintayehu.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/Yohannes-GitHub/newsletter-sign-up-with-success-message-2-main)
+- Live Site URL: [Add live site URL here](https://newsletter-sign-up-by-jon-sintayehu2.netlify.app/)
 
 ## My process
 
@@ -62,8 +63,7 @@ Users should be able to:
 
 ### What I learned
 
-- How to combine flexbox with relative and absolute positionings.
-- How to align custom list styles with their corresponding texts.
+- The basics on how to use formData to retrieve data from a form
 
 ### Continued development
 
