@@ -7,28 +7,39 @@ const confirmedEmail = document.querySelector(".confirmed-email");
 const dismissBtn = document.getElementById("dismiss-btn");
 const form = document.getElementById("form");
 
-input.addEventListener("click", () => {
-  emailRight.classList.add("hidden");
-  input.classList.remove("error-input");
-});
+function formReset() {
+  form.reset();
+}
 
-subBtn.addEventListener("click", () => {
+const handleSubmit = (e) => {
+  e.preventDefault(e);
+
+  const formData = new FormData(e.target);
+  const data = Object.fromEntries(formData);
+
   const regex = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/;
-  if (input.value.match(regex)) {
+  if (data.email.match(regex)) {
     main.classList.add("hidden");
     section.classList.remove("hidden");
 
     emailRight.classList.add("hidden");
     input.classList.remove("error-input");
 
-    confirmedEmail.textContent = input.value;
+    confirmedEmail.textContent = data.email;
     input.value = "";
   } else {
     emailRight.classList.remove("hidden");
     input.classList.add("error-input");
-    if (input.value === "") emailRight.textContent = "Please insert your email";
+    if (data.email === "") emailRight.textContent = "Please insert your email";
     else emailRight.textContent = "Incorrect email formatting";
   }
+};
+
+form.addEventListener("submit", handleSubmit);
+
+input.addEventListener("click", () => {
+  emailRight.classList.add("hidden");
+  input.classList.remove("error-input");
 });
 
 dismissBtn.addEventListener("click", () => {

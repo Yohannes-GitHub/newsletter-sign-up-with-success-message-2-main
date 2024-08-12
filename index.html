@@ -28,7 +28,7 @@
       }
     </style>
   </head>
-  <body>
+  <body onload="formReset()">
     <!-- Sign-up form start -->
     <main>
       <img
@@ -50,7 +50,7 @@
           <h5 class="valid-email-required hidden"></h5>
         </div>
         <form id="form" novalidate>
-          <input type="text" placeholder="email@company.com" />
+          <input type="text" placeholder="email@company.com" name="email" />
           <button id="subscribe-btn">Subscribe to monthly newsletter</button>
         </form>
       </div>
