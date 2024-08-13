@@ -36,17 +36,17 @@ Users should be able to:
 
 ![](./assets/images/Screenshot%20of%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20-%20Desktop%20version.png)
 
-- Desktop Solution SignUp form empty input error state -
-
-![](./assets/images/Screenshot%20of%20sign-up%20form%20empty%20input%20error%20state%20-%20Desktop%20version.png)
-
-- Desktop Solution SignUp form incorrect formatting error state -
-
-![](./assets/images/Screenshot%20of%20sign-up%20form%20incorrect%20formatting%20error%20state%20-%20Desktop%20version.png)
-
 - Desktop Solution SignUp form success state -
 
 ![](./assets/images/Screenshot%20of%20Frontend%20Mentor%20Newsletter%20sign-up%20success%20page%20-%20Desktop%20version.png)
+
+- Mobile Solution SignUp form -
+
+![](./assets/images/Screenshot%20of%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20-%20Mobile%20version.png)
+
+- Mobile Solution SignUp form success state -
+
+![](./assets/images/Screenshot%20of%20Frontend%20Mentor%20Newsletter%20sign-up%20success%20page%20-%20Mobile%20version.png)
 
 ### Links
 
